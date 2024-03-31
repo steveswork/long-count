@@ -7,7 +7,7 @@
     "steveswork <stephen.isienyi@gmail.com> (https://github.com/steveswork)"
   ],
   "dependencies": {
-    "@webkrafters/long-count": "0.0.3"
+    "@webkrafters/long-count": "0.0.4"
   },
   "description": "@webkrafters/long-count package dx friend wrapper",
   "devDependencies": {
@@ -31,7 +31,10 @@
     "js-cookie": "^3.0.5",
     "typescript": "^4.8.2"
   },
-  "files": [ "dist", "index.js" ],
+  "files": [
+    "dist",
+    "index.js"
+  ],
   "homepage": "https://github.com/webKrafters/long-count/readme",
   "keywords": [
     "interval",
@@ -71,5 +74,5 @@
     "test:watch": "eslint --fix && jest --updateSnapshot --watchAll"
   },
   "types": "dist/index.d.ts",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
