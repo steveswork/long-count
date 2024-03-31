@@ -1,15 +1,15 @@
 {
   "author": "Stephen Isienyi <stephen.isienyi@webkrafting.com>",
   "bugs": {
-    "url": "https://github.com/steveswork/universal-storage/issues"
+    "url": "https://github.com/webKrafters/long-count/issues"
   },
   "contributors": [
     "steveswork <stephen.isienyi@gmail.com> (https://github.com/steveswork)"
   ],
   "dependencies": {
-    "@webkrafters/universal-storage": "0.0.997"
+    "@webkrafters/long-count": "0.0.3"
   },
-  "description": "@webkrafters/universal-storage package dx friend wrapper",
+  "description": "@webkrafters/long-count package dx friend wrapper",
   "devDependencies": {
     "@babel/cli": "^7.17.0",
     "@babel/core": "^7.20.5",
@@ -31,47 +31,45 @@
     "js-cookie": "^3.0.5",
     "typescript": "^4.8.2"
   },
-  "files": [
-    "package.json",
-    "index.js",
-    "dist/index.js",
-    "dist/index.d.ts"
-  ],
+  "files": [ "dist", "index.js" ],
+  "homepage": "https://github.com/webKrafters/long-count/readme",
   "keywords": [
-    "cookie",
-    "local storage",
-    "local-storage",
-    "localstorage",
-    "server storage",
-    "server-storage",
-    "serverstorage",
-    "storage",
-    "universal",
-    "universal storage",
-    "universal-storage",
-    "universalstorage"
+    "interval",
+    "long count",
+    "long-count",
+    "longCount",
+    "longcount",
+    "set interval",
+    "set-interval",
+    "setInterval",
+    "setinterval",
+    "set timeout",
+    "set-timeout",
+    "setTimeout",
+    "settimeout",
+    "time out",
+    "time-out",
+    "timeOut",
+    "timeout",
+    "timer"
   ],
   "license": "ISC",
   "main": "index.js",
-  "name": "universal-storage",
-  "peerDependencies": {
-    "js-cookie": "> 1.0"
-  },
+  "name": "long-count",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steveswork/universal-storage.git"
+    "url": "git+https://github.com/webkrafters/long-count.git"
   },
   "scripts": {
-    "build": "eslint --fix && rm -rf dist && babel src -d dist --ignore '**/*.test.js' && tsc",
-    "postbuild": "node ./post-builder",
+    "build": "eslint --fix && rm -rf dist && babel src -d dist && tsc",
     "test": "eslint --fix && jest --coverage --updateSnapshot",
     "test:clean": "jest --clearCache",
     "test:core": "jest --updateSnapshot",
     "test:watch": "eslint --fix && jest --updateSnapshot --watchAll"
   },
   "types": "dist/index.d.ts",
-  "version": "0.0.21"
+  "version": "0.0.1"
 }
